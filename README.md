@@ -19,16 +19,19 @@ OBS: No fim do projeto vou refatorar tudo pra deixar todas as páginas como stat
      
      
 A página inicial do app ja abre no principal loteamento da empresa
-
-![DNA Main 1](https://user-images.githubusercontent.com/101966102/173303045-da7579f5-c7c1-4341-9489-813603204859.gif)
-     
      
      
 ![filme app dna (online-video-cutter com)](https://user-images.githubusercontent.com/101966102/173303109-4b1097c4-8cf2-48ff-8a3a-e2c2d442ee78.gif)
+     
+     
+
+![DNA Main 2](https://user-images.githubusercontent.com/101966102/173303045-da7579f5-c7c1-4341-9489-813603204859.gif)
+     
+     
 
 
 
-![Segundo gif DNA](https://user-images.githubusercontent.com/101966102/173299422-03d6f72a-cc80-4ca9-bc6a-bdfe169a20a2.gif)
+![DNA Main 3](https://user-images.githubusercontent.com/101966102/173299422-03d6f72a-cc80-4ca9-bc6a-bdfe169a20a2.gif)
 
 
 Há duas outras abas de loteamento com a mesma estrutura dessa, so muda as fotos, dados e localização.
