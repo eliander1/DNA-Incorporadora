@@ -1,5 +1,6 @@
 # DNA-Incorporadora
 
+A arte foi feita no illustrator por um designer e montado no Figma, segui o projeto do figma e apliquei algumas melhorias como a API do Google maps e animação de botões.
 
 Cliente solicitou os seguintes tópicos:
 
