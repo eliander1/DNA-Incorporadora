@@ -1,16 +1,10 @@
-# app_dna_oficial
+# DNA-Incorporadora
 
-O melhor aplicativo de incorporadora e imobiliária do Brasil
 
-## Getting Started
+Cliente solicitou os seguintes tópicos:
 
-This project is a starting point for a Flutter application.
+1- Uma página para cada um dos 3 loteamentos.
 
-A few resources to get you started if this is your first Flutter project:
+2- A principal CTA do app deve ser o acompanhamento das obras.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3- Uma aba onde o cliente possa entrar em contato com cada um dos setores da empresa
