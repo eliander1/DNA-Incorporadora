@@ -18,6 +18,8 @@ OBS: No fim do projeto vou refatorar tudo pra deixar todas as páginas como stat
 
 A página inicial do app ja abre no principal loteamento da empresa
 
+<div align="center"
+
 ![FinalGif-DNA](https://user-images.githubusercontent.com/101966102/173299348-72029231-d1a8-4551-90d5-b6d77d2d0778.gif)
 
 
@@ -30,6 +32,10 @@ Há duas outras abas de loteamento com a mesma estrutura dessa, so muda as fotos
 
 No video não da pra perceber mas o app todo é em 4k e roda liso no celular.
 
-![app_dna_oficial – Home dart  app_dna_oficial  13_06_2022 03_19_38](https://user-images.githubusercontent.com/101966102/173300491-497ee925-1745-4bf7-b073-c3a551b07a69.png)
+![app_dna_oficial – Home dart  app_dna_oficial  13_06_2022 03_19_38](https://user-images.githubusercontent.com/101966102/173301235-1d956d48-b09e-406e-98f8-f69066ea615d.png)
+
+</div>
 
 Essa é a última aba, todos os botões são animados.
+     
+    
