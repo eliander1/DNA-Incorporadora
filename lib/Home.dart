@@ -1,7 +1,7 @@
-import 'package:app_dna_oficial/telas/CaminhoDasAguas.dart';
-import 'package:app_dna_oficial/telas/ChacarasAmazonas.dart';
-import 'package:app_dna_oficial/telas/ParaisoDosLagos.dart';
-import 'package:app_dna_oficial/telas/SobreNos.dart';
+import 'package:app_dna_oficial/screens/caminho_das_aguas/caminhos_das_aguas.dart';
+import 'package:app_dna_oficial/screens/chacaras_amazonas/chacaras_amazonas.dart';
+import 'package:app_dna_oficial/screens/paraiso_dos_lagos/paraiso_dos_lagos.dart';
+import 'package:app_dna_oficial/screens/sobre_nos/sobre_nos.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
@@ -14,21 +14,17 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
 
   int index = 0;
-  GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
+  final GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
 
   @override
   Widget build(BuildContext context) {
       final items = [
-        Icon(Icons.kayaking_outlined, size: 30), //colocar um image.asset dentro de Icon()
-        Icon(Icons.water, size: 30),
-        Icon(Icons.house_outlined, size: 30),
-        Icon(Icons.assignment_ind_outlined, size: 30)];
+        const Icon(Icons.kayaking_outlined, size: 30), //colocar um image.asset dentro de Icon()
+        const Icon(Icons.water, size: 30),
+        const Icon(Icons.house_outlined, size: 30),
+        const Icon(Icons.assignment_ind_outlined, size: 30)];
 
       final telas = [ParaisoDosLagos(), CaminhoDasAguas(), ChacarasAmazonas(), SobreNos()];
-
-      var appBar = AppBar(title: Image.asset("assets/DNA-logo-oficial.png"), backgroundColor: Colors.white);
-      var size = MediaQuery.of(context).size;
-
 
 
     return Scaffold(
@@ -41,7 +37,7 @@ class _HomeState extends State<Home> {
         key: _bottomNavigationKey,
         items: items,
         animationCurve: Curves.bounceInOut,
-        animationDuration: Duration(milliseconds: 200),
+        animationDuration: const Duration(milliseconds: 200),
         index: index,
         onTap: (index) => setState(() {this.index = index;}),
       ),
