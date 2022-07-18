@@ -4,7 +4,10 @@
         android:label="DNA"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
+
+
         <activity
+
             android:name=".MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
@@ -24,6 +27,7 @@
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+
         </activity>
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
@@ -32,5 +36,6 @@
             android:value="2" />
         <meta-data android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyD83ctLB6gPhSiGTh43CYeThpKx09acHyE"/>
+
     </application>
 </manifest>

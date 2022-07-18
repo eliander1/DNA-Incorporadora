@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class BotaoSobre extends StatelessWidget {
   final void funcao;
@@ -40,7 +41,9 @@ class BotaoSobre extends StatelessWidget {
       onPressed: () {
         funcao;
       },
-      child: Text('$textoBotao'),
+      child: Text(textoBotao),
     );
   }
 }
+
+

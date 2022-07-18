@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
-import '../../widgets/acompanhe_a_obra.dart';
-import '../../widgets/cabecalho.dart';
-import '../../widgets/localizacao.dart';
-import '../../widgets/para_voce.dart';
-import '../../widgets/projeto.dart';
+import '../../widgets/pedacos de pagina/acompanhe_a_obra.dart';
+import '../../widgets/pedacos de pagina/cabecalho.dart';
+import '../../widgets/pedacos de pagina/localizacao.dart';
+import '../../widgets/pedacos de pagina/para_voce.dart';
+import '../../widgets/pedacos de pagina/projeto.dart';
 
 class ChacarasAmazonas extends StatelessWidget {
+  const ChacarasAmazonas({Key? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {
@@ -23,11 +25,11 @@ class ChacarasAmazonas extends StatelessWidget {
             subtituloImg: 'assets/ChacarasAM/subtitle 10min.png', subtituloAltura: 58, subtituloLargura: 276,
             paddingBotaoObra: 231,),
           ParaVoce(Chacaras: true),
-          AcompanheAObra(),
+          const AcompanheAObra(),
           Projeto(
-            imagemDescricao: 'assets/texto proj@4x.png',
+            imagemDescricao: 'assets/ChacarasAM/Texto Projeto CHA.png',
             imagens: const [
-              "assets/Mapa.jpeg",
+              "assets/Projeto/Mapa.jpeg",
 
             ],
           ),

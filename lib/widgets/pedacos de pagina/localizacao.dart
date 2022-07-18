@@ -1,11 +1,11 @@
 import 'dart:async';
-import 'botoes/botao_abrir_no_maps.dart';
+import '../botoes/botao_abrir_no_maps.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
-import 'botoes/botao_obra.dart';
+import '../botoes/botao_obra.dart';
 
 class Localizacao extends StatefulWidget {
   String markerId;
@@ -69,7 +69,7 @@ class _LocalizacaoState extends State<Localizacao> {
           Padding(
               padding: const EdgeInsets.only(top: 72),
               child: Image.asset(
-                "assets/localizacao.png",
+                "assets/Localizacao/localizacao.png",
                 height: 76,
               )),
 
@@ -101,7 +101,7 @@ class _LocalizacaoState extends State<Localizacao> {
               child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    BotaoMapa(),
+                    const BotaoMapa(),
                     Padding(
                         padding: const EdgeInsets.only(top: 10, bottom: 10),
                         child: BotaoObra(double.maxFinite)),

@@ -1,9 +1,9 @@
-import 'package:app_dna_oficial/widgets/para_voce.dart';
 import 'package:flutter/material.dart';
-import '../../widgets/acompanhe_a_obra.dart';
-import '../../widgets/cabecalho.dart';
-import '../../widgets/localizacao.dart';
-import '../../widgets/projeto.dart';
+import '../../widgets/pedacos de pagina/acompanhe_a_obra.dart';
+import '../../widgets/pedacos de pagina/cabecalho.dart';
+import '../../widgets/pedacos de pagina/localizacao.dart';
+import '../../widgets/pedacos de pagina/para_voce.dart';
+import '../../widgets/pedacos de pagina/projeto.dart';
 
 class CaminhoDasAguas extends StatelessWidget {
   const CaminhoDasAguas({Key? key}) : super(key: key);
@@ -16,32 +16,31 @@ class CaminhoDasAguas extends StatelessWidget {
     return SingleChildScrollView(child:
     Container( width: size.width,
         height: 3724,
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
             image: DecorationImage(
                 image: AssetImage("assets/CaminhoDasAguas/fundoCaminho.png"),
                 fit: BoxFit.fill)),
         child: Column( children:[
           Cabecalho(tituloImg: "assets/CaminhoDasAguas/CaminhoDasAguasTexto.png" , tituloAltura: 240, tituloLargura: 320,
-            subtituloImg: "assets/O Paraiso Natural.png", subtituloAltura: 60, subtituloLargura: 254,
+            subtituloImg: "assets/ParaisoDosLagos/O Paraiso Natural.png", subtituloAltura: 60, subtituloLargura: 254,
             paddingBotaoObra: 231,),
           ParaVoce(Chacaras: false),
-          AcompanheAObra(),
+          const AcompanheAObra(),
           Projeto(
-            imagemDescricao: 'assets/texto proj@4x.png',
+            imagemDescricao: 'assets/CaminhoDasAguas/texto-Caminho.png',
             imagens: const [
-              "assets/Mapa.jpeg",
-              "assets/Lazer.jpeg",
-              "assets/AsfaltoObra.jpeg",
-              "assets/Fitness.jpeg",
-              "assets/Kids.jpeg",
-              "assets/ParquinhoParaiso.jpeg",
-              "assets/Mirante.jpeg",
-              "assets/Pistas.jpeg",
-              "assets/Distancia.jpeg",
-              "assets/Redario.jpeg",
-              "assets/Quiosque.jpeg",
-              "assets/Tranquilidade.jpeg",
-              "assets/Idosos.jpeg"
+              "assets/Projeto/Mapa.jpeg",
+              "assets/Projeto/Lazer.jpeg",
+              "assets/Projeto/Fitness.jpeg",
+              "assets/Projeto/Kids.jpeg",
+              "assets/Projeto/ParquinhoParaiso.jpeg",
+              "assets/Projeto/Mirante.jpeg",
+              "assets/Projeto/Pistas.jpeg",
+              "assets/Projeto/Distancia.jpeg",
+              "assets/Projeto/Redario.jpeg",
+              "assets/Projeto/Quiosque.jpeg",
+              "assets/Projeto/Tranquilidade.jpeg",
+             // "assets/Idosos.jpeg"
             ],
           ),
           Localizacao(

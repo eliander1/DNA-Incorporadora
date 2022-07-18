@@ -1,3 +1,5 @@
+import 'package:app_dna_oficial/constants/constants.dart';
+import 'package:app_dna_oficial/widgets/botoes/launchLink.dart';
 import 'package:flutter/material.dart';
 
 class BotaoObra extends StatelessWidget {
@@ -11,8 +13,8 @@ class BotaoObra extends StatelessWidget {
       style: ButtonStyle(
         backgroundColor: MaterialStateProperty.resolveWith<Color?>((states){
           if (states.contains(MaterialState.pressed)){
-            return Color(0xff6ec646);}
-          return Color(0xffc14608);}),
+            return const Color(0xff6ec646);}
+          return const Color(0xffc14608);}),
 
         minimumSize: MaterialStateProperty.resolveWith((states){
           if (states.contains(MaterialState.pressed)){
@@ -26,10 +28,10 @@ class BotaoObra extends StatelessWidget {
 
         textStyle: MaterialStateProperty.resolveWith((states){
           if (states.contains(MaterialState.pressed)){
-            return TextStyle(fontSize: 12, fontFamily: "Poppins-Bold");}
-          return TextStyle(fontSize: 18, fontFamily: "Poppins-Bold");}),),
+            return const TextStyle(fontSize: 12, fontFamily: "Poppins-Bold");}
+          return const TextStyle(fontSize: 18, fontFamily: "Poppins-Bold");}),),
 
-      onPressed: (){debugPrint('Acompanhar as obras 1');},
+      onPressed: () => launchLink(linkSupervisao),
       child: const Text('Acompanhar a Obra'),
 
     );

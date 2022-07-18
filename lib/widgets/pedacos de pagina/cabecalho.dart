@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'botoes/botao_obra.dart';
+import '../botoes/botao_obra.dart';
 
 class Cabecalho extends StatelessWidget {
 
@@ -25,16 +25,16 @@ class Cabecalho extends StatelessWidget {
     return Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Padding(padding: EdgeInsets.only(top: 54),
+          Padding(padding: const EdgeInsets.only(top: 54),
               child:Image.asset("assets/logo dna@4x.png", width: 123, height: 79)),
 
-          Padding(padding: EdgeInsets.only(top: 37),
+          Padding(padding: const EdgeInsets.only(top: 37),
             child: Image.asset(tituloImg, width: tituloLargura, height: tituloAltura),),
 
-          Padding(padding: EdgeInsets.only(top: 15),
+          Padding(padding: const EdgeInsets.only(top: 15),
             child: Image.asset(subtituloImg, width: subtituloLargura, height: subtituloAltura,),),
 
-          Padding(padding: EdgeInsets.only(top: 24),
+          Padding(padding: const EdgeInsets.only(top: 24),
               child: BotaoObra(paddingBotaoObra)
           )
         ]);

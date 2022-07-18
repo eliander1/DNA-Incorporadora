@@ -2,6 +2,8 @@
 import 'package:flutter/material.dart';
 
 class BotaoMapa extends StatelessWidget {
+  const BotaoMapa({Key? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {

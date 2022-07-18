@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../../widgets/botoes/botoes_sobre/botoes_sobre.dart';
 
 class SobreNos extends StatelessWidget {
+  const SobreNos({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
