@@ -1,5 +1,6 @@
+import 'package:app_dna_oficial/widgets/botoes/launch_link.dart';
 import 'package:flutter/material.dart';
-import '../launchLink.dart';
+import '../launch_link.dart';
 import 'botoes_sobre_controller.dart';
 
 class Botoes extends StatelessWidget {

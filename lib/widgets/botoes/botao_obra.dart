@@ -1,5 +1,5 @@
-import 'package:app_dna_oficial/constants/constants.dart';
-import 'package:app_dna_oficial/widgets/botoes/launchLink.dart';
+import 'package:app_dna_oficial/constants/whattsapp_links.dart';
+import 'package:app_dna_oficial/widgets/botoes/launch_link.dart';
 import 'package:flutter/material.dart';
 
 class BotaoObra extends StatelessWidget {
@@ -31,7 +31,7 @@ class BotaoObra extends StatelessWidget {
             return const TextStyle(fontSize: 12, fontFamily: "Poppins-Bold");}
           return const TextStyle(fontSize: 18, fontFamily: "Poppins-Bold");}),),
 
-      onPressed: () => launchLink(linkSupervisao),
+      onPressed: () => launchLink(WhattsappLinks.linkFinanceiro),
       child: const Text('Acompanhar a Obra'),
 
     );

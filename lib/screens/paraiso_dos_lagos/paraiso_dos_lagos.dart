@@ -1,9 +1,10 @@
-import 'package:app_dna_oficial/widgets/pedacos%20de%20pagina/localizacao.dart';
+import 'package:app_dna_oficial/widgets/pedacos_de_pagina/acompanhe_a_obra.dart';
+import 'package:app_dna_oficial/widgets/pedacos_de_pagina/cabecalho.dart';
+import 'package:app_dna_oficial/widgets/pedacos_de_pagina/localizacao.dart';
+import 'package:app_dna_oficial/widgets/pedacos_de_pagina/para_voce.dart';
+import 'package:app_dna_oficial/widgets/pedacos_de_pagina/projeto.dart';
 import 'package:flutter/material.dart';
-import '../../widgets/pedacos de pagina/acompanhe_a_obra.dart';
-import '../../widgets/pedacos de pagina/cabecalho.dart';
-import '../../widgets/pedacos de pagina/para_voce.dart';
-import '../../widgets/pedacos de pagina/projeto.dart';
+
 
 class ParaisoDosLagos extends StatelessWidget {
   const ParaisoDosLagos({Key? key}) : super(key: key);
