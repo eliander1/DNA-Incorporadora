@@ -11,9 +11,8 @@ Cliente solicitou os seguintes tópicos:
 3- Uma aba onde o cliente possa entrar em contato com cada um dos setores da empresa
 
 
-Projeto ta em fase final, apenas aguardando as novas fotos e números de contato que serão adicionados aos botões.
+Projeto ta em fase final, apenas aguardando as novas fotos, números de contato que serão adicionados aos botões e refatoração.
 
-OBS: No fim do projeto vou refatorar tudo pra deixar todas as páginas como stateless aplicando gerenciamento de estado no mapa, pra rodar mais liso ainda e evitando consumo de dados desnecessário.
 
 <div align="center"
      
@@ -43,6 +42,5 @@ No video não da pra perceber mas o app todo é em 4k e roda liso no celular.
 
 </div>
 
-Nos gifs parece rodar travando mas na prática roda bem liso e em 4k, depois que refatorar e aplicar gerenciamento de estados vai ficar mais liso ainda!
-     
+
     
