@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class BotaoSobre extends StatelessWidget {
   final void funcao;
@@ -38,9 +37,9 @@ class BotaoSobre extends StatelessWidget {
           return const TextStyle(fontSize: 18, fontFamily: "Poppins-Bold");
         }),
       ),
-      onPressed: () {
-        funcao;
-      },
+      onPressed:
+      () => funcao
+      ,
       child: Text(textoBotao),
     );
   }

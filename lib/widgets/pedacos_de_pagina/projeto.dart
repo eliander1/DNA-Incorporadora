@@ -11,7 +11,7 @@ class Projeto extends StatelessWidget {
     return Column(children: [
       Padding(
           padding: const EdgeInsets.only(top: 101),
-          child: Image.asset("assets/Projeto/o projeto@4x.png", height: 70),),
+          child: Image.asset("assets/Projeto/O_projeto_texto.png", height: 70),),
 
       Container(
         padding: const EdgeInsets.only(top: 37),

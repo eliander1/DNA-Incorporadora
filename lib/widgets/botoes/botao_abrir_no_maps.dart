@@ -1,6 +1,9 @@
 
 import 'package:flutter/material.dart';
 
+import '../../constants/whatsapp_links.dart';
+import 'controller/launch_link.dart';
+
 class BotaoMapa extends StatelessWidget {
   const BotaoMapa({Key? key}) : super(key: key);
 
@@ -40,9 +43,7 @@ class BotaoMapa extends StatelessWidget {
               fontSize: 18, fontFamily: "Poppins-Bold");
         }),
       ),
-      onPressed: () {
-        debugPrint('clicado');
-      },
+      onPressed: () => launchLink(WhatsappLinks.linkGoogleMaps),
       child: const Text('Abrir no Google Maps'),
     );
   }

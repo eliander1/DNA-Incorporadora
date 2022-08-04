@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
 import '../botoes/botao_obra.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class AcompanheAObra extends StatelessWidget {
   const AcompanheAObra({Key? key}) : super(key: key);
@@ -11,11 +11,10 @@ class AcompanheAObra extends StatelessWidget {
       children: [
         Padding(
           padding: const EdgeInsets.only(top: 87),
-          child: Image.asset(
-            "assets/BotaoAcompanharObra/quer ficar por dentro@4x.png",
-            width: 296,
-            height: 76,
-          ),
+          child: SvgPicture.asset(
+              "assets/BotaoAcompanharObra/quer_ficar_por_dentro.svg",
+              width: 296,
+              height: 76),
         ),
         Padding(padding: const EdgeInsets.only(top: 37), child: BotaoObra(231))
       ],

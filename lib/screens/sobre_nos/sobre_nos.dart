@@ -14,7 +14,7 @@ class SobreNos extends StatelessWidget {
         height: size.height + kBottomNavigationBarHeight + 8,
         decoration: const BoxDecoration(
             image: DecorationImage(
-                fit: BoxFit.fill, image: AssetImage("assets/FundoSobre.png"))),
+                fit: BoxFit.fill, image: AssetImage("assets/Fundos/FundoSobre.png"))),
         child: Column(crossAxisAlignment: CrossAxisAlignment.center, children: [
           Container(
             padding: EdgeInsets.only(

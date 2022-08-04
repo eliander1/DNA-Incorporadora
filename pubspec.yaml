@@ -17,6 +17,7 @@ dependencies:
   video_player: ^2.4.2
   google_maps_flutter: ^2.1.6
   url_launcher: ^6.0.20
+  flutter_svg: ^1.1.1+1
 
 
 dev_dependencies:
