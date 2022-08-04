@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class BotaoSobre extends StatelessWidget {
-  final void funcao;
+  final Function() funcao;
   final String textoBotao;
 
-  BotaoSobre(this.funcao, this.textoBotao);
+  BotaoSobre({required this.funcao, required this.textoBotao});
 
   @override
   Widget build(BuildContext context) {
@@ -37,9 +37,7 @@ class BotaoSobre extends StatelessWidget {
           return const TextStyle(fontSize: 18, fontFamily: "Poppins-Bold");
         }),
       ),
-      onPressed:
-      () => funcao
-      ,
+      onPressed:() => funcao(),
       child: Text(textoBotao),
     );
   }

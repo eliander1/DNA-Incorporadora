@@ -18,13 +18,22 @@ class Botoes extends StatelessWidget {
           Column(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-            BotaoSobre(launchLink(WhatsappLinks.linkFinanceiro), 'Financeiro'),
+            BotaoSobre(funcao:(){
+              print('financeiro');
+              launchLink(WhatsappLinks.linkFinanceiro);
+            },textoBotao: 'Financeiro'),
 
             Padding(padding: const EdgeInsets.only(top: 10, bottom: 10),
-            child: BotaoSobre(launchLink(WhatsappLinks.linkJuridico), 'Jurídico'),
+            child: BotaoSobre(funcao:(){
+              launchLink(WhatsappLinks.linkJuridico);
+              },
+              textoBotao: 'Jurídico'),
               ),
 
-              BotaoSobre(launchLink(WhatsappLinks.linkSupervisao), 'Supervisão de Obras'),
+              BotaoSobre(funcao:(){
+                launchLink(WhatsappLinks.linkSupervisao);
+                },
+                textoBotao: 'Supervisão de Obras'),
 
       ]),
     );
